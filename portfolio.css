@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    height: 275.5%;
+    width: 100%;
+    background-color: rgb(48, 48, 54);
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+.nav-bar{
+    font-family: 'Inter';
+    position: relative;
+    display: flex;
+    margin: 10px 130px;
+    background-color: none;
+}
+.text-area{
+    margin-top: 18px;
+
+}
+img{
+    position:absolute;
+    margin-left: -72%;
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+}
+.text-area a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+.text-area a span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.ul-part{
+    position: relative;
+    display:flex;
+    margin-left:90px;
+    cursor: pointer;
+}
+.ul-part li{
+    margin-right:50px;
+    list-style: none;
+
+}
+.ul-part li a{
+    font-size:9px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(223, 217, 217);
+    z-index: 10;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.social-media-icons{
+    margin: 0px;
+    display: flex;
+    width: 20px;
+    margin-left: -50px;
+}
+.social-media-icons a{
+    text-decoration: none;
+    margin-right: -320px;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+.twitter{
+    margin-left: 150px;
+    margin-top: 7px;
+
+}
+.twitter svg{
+    position: relative;
+    left: -190px;
+    top: 15px;
+   
+}
+.github{
+    margin-left: -20px;
+    margin-top: 7px;
+}
+.github svg{
+    position: relative;
+    left: -190px;
+    top: 15px;   
+}
+.mail{
+   margin-left:-200px;
+    position: relative;
+    top: 21px;  
+}
+.mail svg{
+    fill: rgb(111, 224, 172);
+}
+.social-media-icons svg{
+    height: 14px;
+    position: relative;
+    margin-left: -80px;
+    fill: white;
+}
+.svg-circle1{
+    float: left;
+    margin-top: 0px;
+    fill: rgba(0, 0, 0,0.1);
+    margin-left: 50%;
+}
+.right-part{
+    position: absolute;
+    margin-top: 60px;
+    color: rgb(121, 0, 0);
+    background-color:none;
+    margin-left: 210px;
+    
+}
+.right-part p{
+    color: #000;
+    font-family: 'Inter';
+    padding: 5px 5px;
+    text-align: center;
+    width: 120px;
+    font-size: 9px;
+    font-weight: 500;
+    background-color: rgb(111, 224, 172);
+}
+.right-part-content{
+    position: relative;
+    top: 15px;
+    font-size: 32px;
+    font-family: 'Inter';
+    line-height: 45px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.about{
+    position: relative;
+    top: 20px;
+    font-family: 'Inter';
+    color: rgb(134, 130, 130);
+    font-size: 9px;
+    letter-spacing: 1.5px;
+}
+.right-part a{
+    position: relative;
+    top: 60px;
+    color: rgb(111, 224, 172);
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+.svg-area{
+    position:absolute;
+}
+.svgobj{
+    position: relative;
+    fill: rgb(41, 38, 38);
+    z-index: 10;
+}
+.svg-circle2{
+    
+    margin-left: 35%;
+    margin-top: 100px;
+}
+.svg-circle3{
+    top: -1000px;
+    left: 720px;
+    position: relative;
+}
+.svg-circle4{
+    position: relative;
+    top: -130em;
+    left: 47em;
+}
+.angular{
+    position: relative;
+    fill: rgb(238, 110, 63);
+    height: 45px;
+    top: -625px;
+    margin-left: 29.9%;
+    z-index: 20;
+}
+.nodejs{
+    position: relative;
+    fill: rgb(111, 224, 172);
+    top: -101em;
+    margin-left: 85.5%;
+    z-index: 20;
+    
+}
+.python{
+    position: relative;
+    fill: rgb(179, 86, 207);
+    top: -198.7em;
+    margin-left: 84%;
+    z-index: 20;  
+}
+.counted-projects{
+    position: relative;
+    top: -28em;
+    left: 11.5em;
+    font-family: 'Inter';
+}
+td span{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+td{
+    color: gray;
+    font-size: 9px;
+    letter-spacing:1px;
+}
+td span::before{
+    margin-left: 20px;
+    content: "";
+}
+td span::after{
+    margin-left: 5px;
+    content: "";
+}
+.my-bio{
+    position: absolute;
+    height: 15vmax;
+    width: 10em;
+    background-color: none;
+    margin-top: 6.4em;
+    margin-left: 200px;
+    font-family: 'Inter';
+}
+.bio-box-bio{
+    height: 48.4vmax;
+    width: 99vmax;
+    background-color: rgb(37, 37, 44);
+    margin-top: -35.4%;
+    position: absolute;
+    transition: ease 0.7s;
+}
+.designs{
+    background-color:rgb(46, 46, 53);
+    width: 20em;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+.designs:hover{
+    box-shadow: 0px 0px 20px rgba(12, 4, 4, 0.445);
+}
+.front-end:hover{
+    box-shadow: 0px 0px 20px rgba(12, 4, 4, 0.445);
+}
+.seo:hover{
+    box-shadow: 0px 0px 20px rgba(12, 4, 4, 0.445);
+}
+.designs p,.front-end p,.seo p{
+    font-size: 13px;
+    color:rgb(111, 224, 172);
+}
+.designs p1,.front-end p1,.seo p1{
+    color: gray;
+    font-size: 9px;
+    letter-spacing:1px;
+    line-height: 1px;
+    bottom: 10px;
+    position: relative;
+}
+.designs a,.front-end a,.seo a{
+    font-size: 10px;
+    color: rgb(230, 228, 228);
+}
+.front-end{
+    background-color:rgb(46, 46, 53);
+    width: 20em;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.seo{
+    background-color:rgb(46, 46, 53);
+    width: 20em;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    border-radius:3px;
+}
+.introduce{
+    font-family: 'Inter';
+    float: right;
+    width: 15em;
+    margin-top: 6em;
+    margin-right: 12em;
+}
+.introduce p{
+    font-size: 10px;
+    color: gray;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.introduce h1{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.introduce h5{
+    font-size:15px;
+    color: #fff;
+    font-weight: 200;
+}
+.footer{
+    height: 35.4vmax;
+    width: 99vmax;
+    background-color: rgb(35, 35, 41);
+    margin-top: 13.4%;
+    position: absolute;
+    transition: ease 0.7s;
+    font-family: 'Inter';
+}
+.conclusion-right{
+    position: absolute;
+    width: 17em;
+    margin-left: 42em;
+    float: right;
+    margin-top: -8.5em;
+}
+.conclusion-right p{
+    top: -70px;
+    position: relative;
+    color: gray;
+    font-size: 10px;
+}
+.conclusion-right h3{
+    margin-top: -50px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.conclusion-right h3 span{
+    color: #fff;
+    font-size: 30px;
+}
+.ul-part-2{
+    display:flex;
+    margin-left:-35px;
+    flex-direction: column;
+}
+.ul-part-2 li{
+    margin-top:10px;
+    list-style: none;
+
+}
+.ul-part-2 li a{
+    font-size:9px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    z-index: 10;
+}
+.social-media-icons2{
+    position: absolute;
+    margin-top: -14em;
+    margin-left: -10px;
+}
+.social-media-icons2 svg{
+    margin-left: 15px;
+    fill: #fff;
+    cursor: pointer;
+}
+.social-media-icons2 svg:hover{
+    fill: rgb(111, 224, 172);
+}
+.conclusion{
+    width: 50%;
+    position: relative;
+    margin-left: 60px;
+}
+.conclusion h1{
+    color: rgb(219, 218, 218);
+    font-weight: 300;
+    line-height: 50px;
+}
+.conclusion h2 a{
+    color: rgb(111, 224, 172);
+    text-decoration: none;
+}
+.conclusion h2{
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
